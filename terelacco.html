@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alicja K. Terelak — Cognitive & Affective Neuroscience</title>
+  <meta name="description" content="Academic website of Alicja K. Terelak — cognitive & affective neuroscience, psychedelic studies, ultrasonic vocalizations in rats, Schlieren imaging, neurocomputational modeling." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23000'/><text x='50' y='60' font-size='54' text-anchor='middle' fill='%23fff' font-family='Arial'>AT</text></svg>">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Tailwind config: enable dark mode via class
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: { inter: ["Inter", "ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "Arial"] }
+        }
+      }
+    };
+  </script>
+  <style>
+    /* Nice link underline */
+    .link {position: relative}
+    .link:after{content:"";position:absolute;left:0;bottom:-2px;width:100%;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+    .link:hover:after{transform:scaleX(1)}
+    /* Smooth anchor scrolling */
+    html{scroll-behavior:smooth}
+  </style>
+</head>
+<body class="font-inter bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+  <!-- Top nav -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-zinc-900/60 border-b border-zinc-200 dark:border-zinc-800">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#top" class="font-semibold">Alicja Terelak</a>
+      <nav class="hidden sm:flex gap-6 text-sm">
+        <a class="hover:opacity-80" href="#research">Research</a>
+        <a class="hover:opacity-80" href="#publications">Publications</a>
+        <a class="hover:opacity-80" href="#talks">Talks</a>
+        <a class="hover:opacity-80" href="#projects">Projects</a>
+        <a class="hover:opacity-80" href="#teaching">Teaching</a>
+        <a class="hover:opacity-80" href="#contact">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="themeToggle" class="rounded-xl border border-zinc-300 dark:border-zinc-700 px-3 py-1.5 text-xs">Toggle theme</button>
+        <a href="#cv" class="text-xs rounded-xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-3 py-1.5">CV</a>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <!-- Hero -->
+  <section id="top" class="max-w-5xl mx-auto px-4 pt-10 pb-8">
+    <div class="grid md:grid-cols-[160px_1fr] gap-6 items-center">
+      <img alt="Portrait" class="w-40 h-40 rounded-2xl object-cover bg-zinc-200 dark:bg-zinc-800" src="https://picsum.photos/400?random=5" />
+      <div>
+        <h1 class="text-3xl md:text-4xl font-semibold leading-tight">Alicja Karolina Terelak</h1>
+        <p class="mt-2 text-zinc-600 dark:text-zinc-400">Cognitive & Affective Neuroscience • Psychedelic studies • Ultrasonic Vocalizations (USV) • Neurocomputational modeling • Predictive coding </p>
+        <p class="mt-4 max-w-prose">PhD researcher investigating how psychedelics modulate motivational states and addiction-related learning. <!-- , with a focus on brain–voice coupling in rats and advanced acoustic-field visualization.</p> -->
+        <div class="mt-4 flex flex-wrap gap-3 text-sm">
+          <a class="link" href="https://www.researchgate.net/profile/Alicja-Terelak" target="_blank" rel="noopener">ResearchGate</a>
+          <span>•</span>
+          <a class="link" href="https://orcid.org/0009-0006-2354-7334" target="_blank" rel="noopener">ORCID</a>
+          <span>•</span>
+          <a class="link" href="https://github.com/terelacco" target="_blank" rel="noopener">GitHub</a>
+          <span>•</span>
+          <a class="link" href="https://www.linkedin.com/in/alicja-terelak/" target="_blank" rel="noopener">LinkedIn</a>
+          <span>•</span>
+          <a class="link" href="mailto:a.terelak@nencki.edu.pl">a.terelak@nencki.edu.pl</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Research -->
+  <section id="research" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Research</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-5">
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5">
+        <h3 class="font-medium">Psychedelics & addiction</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Anti-addictive mechanisms of 5‑HT<sub>2A</sub> agonists: behavioral (place preference, goal-directedness), neurochemical, and immunohistochemical assays.</p>
+      </article>
+      <!--
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5">
+        <h3 class="font-medium">Brain-voice coupling in rodents</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Alpha/respiratory synchronization and ultrasonic vocalizations (USV) as translational biomarkers for pharmacology and neuromodulation.</p>
+      </article>
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5">
+        <h3 class="font-medium">Acoustic field visualization</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Classical Schlieren to image near-field acoustic gradients around the rat's head during USV.</p>
+      </article>
+      -->
+      <article class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5">
+        <h3 class="font-medium">Open & reproducible pipelines</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">USV localization, DeepLabCut/LiveRatTracker, Vistla network analysis, and NEURON/Simulink models curated in public repositories.</p>
+      </article>
+    </div>
+  </section>
+
+<!-- Publications -->
+<section id="publications" class="max-w-5xl mx-auto px-4 py-10">
+  <h2 class="text-2xl font-semibold">Selected Publications</h2>
+    <div class="mt-6 rounded-xl border border-dashed border-zinc-300 dark:border-zinc-700 p-8 text-center text-zinc-600 dark:text-zinc-400 italic">
+      Papers are coming :)
+    </div>
+  </section>
+
+  <!---->
+  <!-- Publications -->
+   <!--  
+  <section id="publications" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Selected Publications</h2>
+    <ol class="mt-4 space-y-4 list-decimal list-inside">
+      <li>
+        <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">
+          <p class="font-medium">Terelak A.K., *et al.* (20XX). Brain–voice coupling as a translational biomarker. <em>Journal of Whatever</em>.</p>
+          <div class="mt-2 text-sm flex flex-wrap gap-3">
+            <a class="link" href="#">PDF</a>
+            <a class="link" href="#">Code</a>
+            <button class="link" onclick="toggleBib(this)">BibTeX</button>
+          </div>
+          <pre class="mt-2 hidden bg-zinc-100 dark:bg-zinc-900 p-3 rounded-lg overflow-x-auto text-xs">@article{Terelak20xx,
+  title={Brain–voice coupling as a translational biomarker},
+  author={Terelak, Alicja K and Others},
+  journal={Journal of Whatever},
+  year={20XX}
+}</pre>
+        </div>
+      </li>
+      <li>
+        <div class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">
+          <p class="font-medium">Matsumoto J., Terelak A.K., *et al.* (20XX). Ultrasonic vocalization localization in freely moving rats. <em>Methods in Neuroscience</em>.</p>
+          <div class="mt-2 text-sm flex flex-wrap gap-3">
+            <a class="link" href="#">PDF</a>
+            <a class="link" href="#">Code</a>
+            <button class="link" onclick="toggleBib(this)">BibTeX</button>
+          </div>
+          <pre class="mt-2 hidden bg-zinc-100 dark:bg-zinc-900 p-3 rounded-lg overflow-x-auto text-xs">@article{MatsumotoTerelak20xx,
+  title={Ultrasonic vocalization localization in freely moving rats},
+  author={Matsumoto, Jumpei and Terelak, Alicja K and Others},
+  journal={Methods in Neuroscience},
+  year={20XX}
+}</pre>
+        </div>
+      </li>
+    </ol>
+  </section> 
+  -->
+
+  <!-- Talks & Conferences -->
+  <section id="talks" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Talks & Conferences</h2>
+    <ul class="mt-4 space-y-3 text-sm">
+      <li class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">
+        4th Ultrasonic Vocalization Conference (Online), Nov 20–21, 2025 — Organizer & presenter.
+      </li>
+      <li class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">
+        Guest lecture: USV analysis & localization — University of Toyama, 2025.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Projects</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-5">
+      <a href="#" class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition">
+        <h3 class="font-medium">USV Localization Toolkit</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Open-source pipeline for time-synchronized audio–video and spatial USV mapping.</p>
+      </a>
+      <a href="#" class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition">
+        <h3 class="font-medium">Schlieren Acoustic Imaging</h3>
+        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Hardware & analysis notes to visualize ultrasonic airflow gradients.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Teaching -->
+  <section id="teaching" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Teaching & Service</h2>
+    <ul class="mt-4 space-y-3 text-sm">
+      <li class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">Head organizer, International Conference “Neuromania” (2021).</li>
+      <li class="rounded-xl border border-zinc-200 dark:border-zinc-800 p-4">Organizing committee, 4th Ultrasonic Vocalizations Conference (2025).</li>
+    </ul>
+  </section>
+
+  <!-- CV & Downloads -->
+  <section id="cv" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">CV</h2>
+    <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Add your CV PDF to the repository (e.g., <code>/assets/Alicja_Terelak_CV.pdf</code>) and update the link below.</p>
+    <a class="inline-flex items-center gap-2 mt-3 rounded-xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2" href="assets/Alicja_Terelak_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-semibold">Contact</h2>
+    <div class="mt-3 grid md:grid-cols-2 gap-5">
+      <div class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5">
+        <p class="text-sm">Email: <a class="link" href="mailto:a.terelak@nencki.edu.pl">a.terelak@nencki.edu.pl</a></p>
+        <p class="text-sm mt-1">GitHub: <a class="link" href="https://github.com/terelacco" target="_blank" rel="noopener">github.com/terelacco</a></p>
+        <p class="text-sm mt-1">ORCID: <a class="link" href="https://orcid.org/0009-0006-2354-7334" target="_blank" rel="noopener">0009-0006-2354-7334</a></p>
+        <p class="text-sm mt-1">ResearchGate: <a class="link" href="https://www.researchgate.net/profile/Alicja-Terelak" target="_blank" rel="noopener">Alicja Terelak</a></p>
+        <p class="text-sm mt-1">LinkedIn: <a class="link" href="https://www.linkedin.com/in/alicja-terelak/" target="_blank" rel="noopener">alicja-terelak</a></p>
+        <p class="text-sm mt-1">Google Scholar: <a class="link" href="https://scholar.google.com/" target="_blank" rel="noopener">Profile</a></p>
+      </div>
+      <form class="rounded-2xl border border-zinc-200 dark:border-zinc-800 p-5" onsubmit="event.preventDefault(); alert('Thanks! This is a static site — link your email or a form service.');">
+        <label class="block text-sm">Quick message</label>
+        <input class="mt-2 w-full rounded-xl border border-zinc-300 dark:border-zinc-700 bg-transparent px-3 py-2" placeholder="Your email" />
+        <textarea class="mt-2 w-full rounded-xl border border-zinc-300 dark:border-zinc-700 bg-transparent px-3 py-2 h-28" placeholder="Message"></textarea>
+        <button class="mt-3 rounded-xl bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 px-4 py-2">Send</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="border-t border-zinc-200 dark:border-zinc-800 py-8 mt-8 text-center text-xs text-zinc-500">
+    © <span id="year"></span> Alicja Terelak • Built with GitHub Pages • <a class="link" href="#top">Back to top</a>
+  </footer>
+
+  <script>
+    // Initialize year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    const applyTheme = (mode)=>{
+      if(mode==='dark'){root.classList.add('dark'); localStorage.setItem('theme','dark');}
+      else{root.classList.remove('dark'); localStorage.setItem('theme','light');}
+    }
+    applyTheme(localStorage.getItem('theme') || (matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
+    themeToggle.addEventListener('click', ()=>{
+      const isDark = root.classList.contains('dark');
+      applyTheme(isDark? 'light':'dark');
+    });
+
+    // Toggle BibTeX blocks
+    function toggleBib(btn){
+      const pre = btn.closest('div').nextElementSibling;
+      if(pre){ pre.classList.toggle('hidden'); }
+    }
+    window.toggleBib = toggleBib;
+  </script>
+</body>
+</html>
